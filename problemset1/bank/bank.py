@@ -1,9 +1,9 @@
 def main():
-  while True:
+	while True:
     greeting = input("Greeting: ").strip().lower()
-		if greeting:
-      print(f"You get R{reward(greeting)}")
-      break
+    if greeting:
+			print(f"You get R{reward(greeting)}")
+			break
 												
 def reward(string: str)-> int:
   if "h" != string[0]:
